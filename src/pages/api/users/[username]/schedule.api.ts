@@ -42,7 +42,7 @@ export default async function handle(
 
   const conflictingScheduling = await prisma.scheduling.findFirst({
     where: {
-      user_id: user.id,
+      user_id: user!.id,
       date: schedulingDate.toDate(),
     },
   })
@@ -59,13 +59,13 @@ export default async function handle(
       email,
       observations,
       date: schedulingDate.toDate(),
-      user_id: user.id,
+      user_id: user!.id,
     },
   })
 
   const calendar = google.calendar({
     version: 'v3',
-    auth: await getGoogleOAuthToken(user.id),
+    auth: await getGoogleOAuthToken(user!.id),
   })
 
   await calendar.events.insert({

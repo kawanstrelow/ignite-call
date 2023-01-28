@@ -9,7 +9,6 @@ import { NextSeo } from 'next-seo'
 export default function Home() {
   return (
     <>
-
       <NextSeo
         title="Descomplique sua agenda - Ignite Call"
         description="Conecte seu calendário e permita que as pessoas marquem agendamentos no seu tempo livre."
@@ -17,22 +16,23 @@ export default function Home() {
 
       <Container>
         <Hero>
-            <Heading size="4xl">Agendamento descomplicado</Heading>
-            <Text size="lg">Conecte seu calendário e permita que as pessoas marquem agendamentos no seu tempo livre.</Text>
-            <ClaimUsernameForm />
+          <Heading size="4xl">Agendamento descomplicado</Heading>
+          <Text size="lg">
+            Conecte seu calendário e permita que as pessoas marquem agendamentos
+            no seu tempo livre.
+          </Text>
+          <ClaimUsernameForm />
         </Hero>
 
         <Preview>
-            <Image 
-                src={previewImage}
-                alt="Calendario simbolizando aplicação em funcionamento"
-                height={400}
-                priority
-                quality={100}
-            />
-
+          <Image
+            src={previewImage}
+            alt="Calendario simbolizando aplicação em funcionamento"
+            height={400}
+            priority
+            quality={100}
+          />
         </Preview>
-
       </Container>
     </>
   )

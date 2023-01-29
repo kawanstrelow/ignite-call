@@ -21,7 +21,7 @@ To use <Ignite Call>, fallow these steps:
 ```
 1. Enter the link https://ignite-call-kawan.vercel.app/
 ```
-<img src="https://kawan-demo-s3.s3.eu-west-1.amazonaws.com/ignite-call/1.JPG" alt="step-1">
+<img src="https://kawan-demo-s3.s3.eu-west-1.amazonaws.com/ignite-call/1.jpg" alt="step-1">
 
 ```
 2. Check your username and put your full name information.
@@ -61,7 +61,7 @@ https://ignite-call-kawan.vercel.app/schedule/yourusername. After this, users ca
 
 ## 🚀 Installing <Ignite Call>
 
-If you want to make changes in the project, install the <Ignite Call> and fallow these steps:
+If you want to make changes in the project, install and fallow these steps:
 
 Windows/Linux/macOS:
 
